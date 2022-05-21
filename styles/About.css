@@ -1,0 +1,33 @@
+.about_title{
+  margin: 2%;
+}
+h1.about_title{
+  font-size: 2.3rem;
+} 
+.about_container{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 3%;
+  gap: 1rem;
+}
+.about_container img{
+  width: 30vw;
+  height: 15rem;
+}
+.description-container{
+  max-width: 40rem;
+}
+.description-container p{
+  text-align: left;
+  font-size: 1.2rem;
+  
+}
+@media (max-width:800px) {
+  .about_container {
+      grid-template-columns: auto;
+    }
+  .about_container img{
+    width: 100%;
+    height: 18rem;
+  }
+}

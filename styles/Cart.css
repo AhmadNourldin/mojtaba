@@ -1,0 +1,26 @@
+.delete_btn,.cash_out button{
+    background-color: white;
+    padding: 0.5rem 1.8rem;
+    border-radius: 0.2rem;
+    transition: all .2s ease-in-out;
+}
+.delete_btn:hover,.cash_out button:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid gray;
+}
+.cash_out{
+    text-align: center;
+    margin: 4rem 0rem;
+}
+.cash_out button{
+    padding: 1.5rem 7rem;
+}
+.article__container{
+    background-color: white;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px black;
+}
+article{
+    margin-left: 1rem;
+}

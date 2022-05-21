@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: flex;
+  padding: 1%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.nav_bar {
+  display: flex;
+  list-style: none;
+}
+
+.nav_bar li {
+  margin: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.cards_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px lightgrey;
+  padding: 3%;
+  width: 20%;
+  margin: 1%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px lightgrey;
+}
+
+.card h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 2vw;
+}
+
+.container_title {
+  background-color: grey;
+  color: white;
+  text-shadow: 0 0 2px white;
+  padding: 1%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.category_title {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+
+.input_container {
+  border: 1px solid lightgrey;
+  padding: 1%;
+  width: 25%;
+  outline: none;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.input_submit {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 1% 4%;
+  border-radius: 5px;
+  cursor: pointer;
+  text-shadow: 0 0 4px white;
+}
+
+.input_submit:hover {
+  box-shadow: 0 0 2px black;
+}
+article{
+  display: grid;
+  place-items: center;
+  margin: 2rem 0rem;
+  gap: 1rem;
+}
+article .article_container{
+  max-width: 900px;
+}
+
+article .article_container {
+  display: grid;
+  gap: 1rem;
+  padding: 2%;
+  box-shadow: 0 0 5px lightgray;
+  border-radius: 1rem;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* Footer Style */
+footer{
+  background-color: black;
+}
+footer .contact{
+  color: white;
+  padding: 2% 0% 2% 2%;
+  display: grid;
+  gap: 1rem;
+}
+/*cart icon*/
+.cart__icons{
+  display: flex;
+  gap: 0.3rem;
+  position: fixed;
+  background-color: white;
+  border-radius: 0.6rem;
+  color: black;
+  text-decoration: none;
+  right: 2rem;
+  top: 3rem;
+  justify-content: center;
+  width: 3rem;
+  height: 2rem;
+  align-items: center;
+  transition: all .2s ease-in-out;
+}
+.cart__icons svg{
+  width: 1.3rem;
+  height: 1.3rem;
+}
+.main__article{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cart__icons:hover{
+  background-color: orange;
+}
